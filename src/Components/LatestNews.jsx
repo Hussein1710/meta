@@ -7,7 +7,7 @@ import Connect from '../assets/Connect.webp'
 
 const LatestNews = () => {
   return (
-    <div className='mt-10'>
+    <div className='mt-14'>
         <div className="flex items-center m-4 gap-4">
             <MdKeyboardArrowDown />
             <p>Latest News</p>
