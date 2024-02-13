@@ -3,8 +3,8 @@ import React from "react";
 const Newsletter = () => {
   return (
     <div className="mt-10 flex">
-      <div className="">
-        <h1 className="text-gray-400">KEEP YOUR EXPERIENCE UP TO DATE</h1>
+      <div className="flex">
+        <h1 className="text-gray-400 ">KEEP YOUR EXPERIENCE UP TO DATE</h1>
       </div>
       <div className="flex">
         <form className="flex justify-center items-center gap-2 w-[60%] border border-gray-300 px-4 py-4">

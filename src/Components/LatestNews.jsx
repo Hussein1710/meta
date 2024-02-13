@@ -13,20 +13,20 @@ const LatestNews = () => {
             <p>Latest News</p>
         </div>
 
-        <div className="block md:flex gap-4">
+        <div className="block md:flex gap-4 m-6">
             <div className="flex flex-col items-center">
                 <img src={MQ3} alt="MQ" />
                 <h1 className='text-left text-2xl'>Meta Quest 3: The first Mass Market reality Headset</h1>
             </div>
 
             <div className="flex flex-col items-center">
-                <img src={Intro} alt="MQ" />
-                <h1 className='text-left text-2xl'>Meta Quest 3: The first Mass Market reality Headset</h1>
+                <img src={Intro} alt="MQ" className='w-[80%]'/>
+                <h1 className='text-center text-2xl'>Introducing the Next-Generation Ray Ban | Meta smart glasses collection</h1>
             </div>
 
             <div className="flex flex-col items-center">
                 <img src={Connect} alt="MQ" />
-                <h1 className='text-left text-2xl'>Meta Quest 3: The first Mass Market reality Headset</h1>
+                <h1 className='text-left text-2xl'>Meta Connect 2023 Keynote Recap</h1>
             </div>
         </div>
     </div>
