@@ -1,27 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Newsletter = () => {
+  const [email, setEmail] = useState("");
+
+  const handleChange = (event) => {
+    setEmail(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Add your sign-up logic here, such as sending the email to your server
+    console.log("Email submitted:", email);
+    // Reset the email input
+    setEmail("");
+  };
   return (
-    <div className="mt-10 flex">
-      <div className="flex">
-        <h1 className="text-gray-400 ">KEEP YOUR EXPERIENCE UP TO DATE</h1>
+    <div className="m-10 mt-24 flex justify-between">
+      <div className="w-full">
+        <h1 className="text-gray-400">
+          KEEP YOUR EXPERIENCE UP TO DATE
+        </h1>
       </div>
-      <div className="flex">
-        <form className="flex justify-center items-center gap-2 w-[60%] border border-gray-300 px-4 py-4">
+     
+      <div className="flex flex-col gap-8 w-full">
+        <form className="flex gap-4">
           <input
             type="email"
-            //   value={query}
-            //   onChange={handleChange}
+            value={email}
+            onChange={handleChange}
             placeholder="Get news and update from Meta"
-            className="outline-none"
-            
+            className="border border-gray-300 rounded-l px-4 py-2 w-[80%] focus:outline-none focus:ring focus:border-blue-500"
           />
+          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 w-[20%] hover:cursor-pointer">
+            Sign up
+          </button>
         </form>
-          <button className="bg-white text-blue-600 rounded-3xl px-4 py-2 border border-gray-300 w-36 hover:cursor-pointer">
-              Sign up
-            </button>
 
-        <p className="text-gray-600">
+        <p className="text-gray-600 w-[80%] text-sm">
           By signing up you agree to receive updates and marketing messages
           (e.g. email, social, etc.) from Meta about Meta’s existing and future
           products and services. You may withdraw your consent and unsubscribe
