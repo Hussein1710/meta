@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-lg font-semibold mb-2">
-              site terms and policies
+              Site terms and policies
             </h2>
             <ul className="text-sm">
               <li>

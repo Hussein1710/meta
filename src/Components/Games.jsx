@@ -7,11 +7,11 @@ import Supernatural from "../assets/Supernatural.webp";
 const Games = () => {
   return (
     <div className="mt-16">
-      <div className="flex flex-col justify-center items-center gap-8">
-        <h1 className="text-center text-5xl font-bold w-[57%]">
+      <div className="flex flex-col justify-center items-center gap-8 mx-auto">
+        <h1 className="text-center text-5xl font-bold w-[100%] md:w-[57%]">
           Explore games and experiences on Meta Quest
         </h1>
-        <button className="bg-white text-blue-600 rounded-3xl px-4 py-2 border border-gray-300 w-[20%] hover:cursor-pointer">
+        <button className="bg-white text-blue-600 rounded-3xl px-4 py-2 border border-gray-300 w-[60%] md:w-[20%] hover:cursor-pointer">
           Browse apps & games
         </button>
       </div>

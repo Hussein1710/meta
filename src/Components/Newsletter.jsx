@@ -15,16 +15,16 @@ const Newsletter = () => {
     setEmail("");
   };
   return (
-    <div className="m-10 mt-24 flex justify-between border-b-2 w-full">
+    <div className="m-10 mt-10 md:mt-24 block md:flex justify-between border-b-2 w-full">
       
-      <div className="w-full">
+      <div className="w-full mb-8 md:mb-0">
         <h1 className="text-gray-400">
           KEEP YOUR EXPERIENCE UP TO DATE
         </h1>
       </div>
      
-      <div className="flex flex-col gap-8 w-full overflow-x-hidden mb-24">
-        <form className="flex gap-4">
+      <div className="block md:flex flex-col gap-8 w-full mb-24">
+        <form className="block md:flex gap-4">
           <input
             type="email"
             value={email}
@@ -32,7 +32,7 @@ const Newsletter = () => {
             placeholder="Get news and update from Meta"
             className="border border-gray-300 rounded-l px-4 py-2 w-[70%] focus:outline-none focus:ring focus:border-blue-500"
           />
-          <button className="bg-white text-blue-600 rounded-3xl overflow-x-hidden px-3 py-1 border border-gray-300 w-[20%] hover:cursor-pointer">
+          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 w-[20%] hover:cursor-pointer">
             Sign up
           </button>
         </form>

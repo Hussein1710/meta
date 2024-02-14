@@ -6,7 +6,9 @@ const Hero = () => {
   const divStyle = {
     backgroundImage: `url(${backImg})`,
     backgroundSize: "cover",
+    backgroundPosition: "center",
     height: "100%",
+    width: "100%",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -19,17 +21,17 @@ const Hero = () => {
           <p className="border rounded bg-slate-400 text-white px-2 w-32 mt-8">
             Special offer
           </p>
-          <h1 className="text-white text-[80px] text-left text-wrap w-[50%]">
+          <h1 className="text-white text-[80px] text-left text-wrap w-full md:w-[50%]">
             Mix reality with Meta Quest 3
           </h1>
 
-          <p className="text-white text-2xl text-left leading-10 w-[50%]">
+          <p className="text-white text-2xl text-left leading-10 w-full md:w-[50%]">
             Get Asgard's Wrath 2 free ($59.99 USD value)—and receive a 6-month
             trial to Meta Quest+ ($47.94 USD value) when you upgrade to 512GB.**
           </p>
 
-          <div className="flex items-center gap-3 mb-32">
-            <button className="bg-blue-600 text-white rounded-3xl px-2 py-1 w-32 hover:cursor-pointer hover:bg-blue-300">
+          <div className="flex items-center gap-3 mb-28">
+            <button className="bg-blue-600 text-white rounded-3xl px-2 py-2 w-36 md:w-32 hover:cursor-pointer hover:bg-blue-300">
               Add to bag
             </button>
             <div className="flex items-center gap-2">
