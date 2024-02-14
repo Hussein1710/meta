@@ -32,10 +32,14 @@ const Newsletter = () => {
             placeholder="Get news and update from Meta"
             className="border border-gray-300 rounded-l px-4 py-2 w-[70%] focus:outline-none focus:ring focus:border-blue-500"
           />
-          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 w-[20%] hover:cursor-pointer">
+          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 hidden md:flex w-[20%] hover:cursor-pointer">
             Sign up
           </button>
         </form>
+
+        <button className="bg-white text-blue-600 rounded-3xl mt-6 mb-4 flex flex-col md:hidden justify-center items-center px-3 py-1 border border-gray-300 w-[40%] md:w-[20%] hover:cursor-pointer">
+            Sign up
+          </button>
 
         <p className="text-gray-600 w-[80%] text-sm">
           By signing up you agree to receive updates and marketing messages
