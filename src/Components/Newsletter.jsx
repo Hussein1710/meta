@@ -32,7 +32,7 @@ const Newsletter = () => {
             placeholder="Get news and update from Meta"
             className="border border-gray-300 rounded-l px-4 py-2 w-[70%] focus:outline-none focus:ring focus:border-blue-500"
           />
-          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 hidden md:flex w-[20%] hover:cursor-pointer">
+          <button className="bg-white text-blue-600 rounded-3xl px-3 py-1 border border-gray-300 hidden md:flex justify-center items-center w-[20%] hover:cursor-pointer">
             Sign up
           </button>
         </form>
