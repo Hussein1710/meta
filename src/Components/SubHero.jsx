@@ -65,7 +65,7 @@ const SubHero = () => {
             cutting-edge technology.
           </p>
           <div className="flex flex-col gap-3 mt-4">
-            <button className="bg-blue-600 text-white rounded-3xl px-3 py-2 w-32 hover:cursor-pointer hover:bg-blue-300">
+            <button className="bg-blue-600 text-white rounded-3xl px-3 py-2 w-36 md:w-32 hover:cursor-pointer hover:bg-blue-300">
               Shop all styles
             </button>
             <div className="flex items-center gap-2">

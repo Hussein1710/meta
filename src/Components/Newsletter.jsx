@@ -37,7 +37,7 @@ const Newsletter = () => {
           </button>
         </form>
 
-        <button className="bg-white text-blue-600 rounded-3xl mt-6 mb-4 flex flex-col md:hidden justify-center items-center px-3 py-1 border border-gray-300 w-[40%] md:w-[20%] hover:cursor-pointer">
+        <button className="bg-white text-blue-600 rounded-3xl mt-6 mb-4 flex flex-col md:hidden justify-center items-center px-3 py-1 border border-gray-300 w-[70%] md:w-[20%] hover:cursor-pointer">
             Sign up
           </button>
 
